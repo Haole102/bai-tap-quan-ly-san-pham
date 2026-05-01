@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
+
 const CheckoutForm = () => {
     const { cartItems, setCartItems } = useContext(ProductContext);
     const navigate = useNavigate();
@@ -65,7 +66,7 @@ const CheckoutForm = () => {
 
 return (
     <div>
-        <h1>Thanh toán</h1>
+        <h1>Thanh toán SP</h1>
 
         <table border="1">
             <thead>
