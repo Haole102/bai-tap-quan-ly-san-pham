@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop HP Notebook 15 bs1xx",
+        "price": 8500000,
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Laptop HP Probook 450G4",
+        "price": 8200000,
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Laptop Dell Latitude E7270",
+        "price": 7100000,
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "Laptop HP 340s G7",
+        "price": 7500000,
+        "image": ""
+    }
+]
