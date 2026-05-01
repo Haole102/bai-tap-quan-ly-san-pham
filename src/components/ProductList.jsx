@@ -12,7 +12,7 @@ const ProductList = () => {
 
     return (
         <>
-            <h1>Danh sach san pham</h1>
+            <h1>Product List</h1>
             <table border="1">
                 <thead>
                     <tr>
