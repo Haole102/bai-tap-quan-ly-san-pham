@@ -2,9 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { ProductContext } from "../context/ProductContext";
 
 const ProductList = () => {
-
     const { products, handleAddToCart } = useContext(ProductContext);
-
     const addToCart = (product) => {
         console.log("Adding product to cart:", product); 
         handleAddToCart(product);
