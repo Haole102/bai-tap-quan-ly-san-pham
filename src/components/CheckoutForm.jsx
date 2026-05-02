@@ -8,7 +8,6 @@ const CheckoutForm = () => {
     const { cartItems, setCartItems } = useContext(ProductContext);
     const navigate = useNavigate();
 
-
     const [form, setForm] = useState({
         customerName: "",
         phone: "",
