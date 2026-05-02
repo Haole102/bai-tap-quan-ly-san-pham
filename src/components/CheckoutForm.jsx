@@ -3,7 +3,6 @@ import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react"; //kkk
 
-
 const CheckoutForm = () => {
     const { cartItems, setCartItems } = useContext(ProductContext);
     const navigate = useNavigate();
